@@ -1,0 +1,51 @@
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+}
+
+th, td{
+    padding: 8px;
+}
+
+th{
+    background-color: #a7a7a7;
+    font-weight: 900;
+}
+
+.tabela-1 th, .tabela-1 td{
+    border: 2px solid #000000
+}
+
+.tabela-1 img{
+    width: 70px;
+    display: block;
+    margin: auto;
+   
+}
+
+.tabela-1 button{
+    background-color: rgb(9, 117, 108);
+    color: aliceblue;
+    padding: 8px 12px;
+    border: none;
+    cursor:pointer;
+}
+
+.tabela-2 th, .tabela-2 td{
+    border: 1px solid rgb(0, 142, 119);
+}
+
+.status-entregue{
+    color: azure;
+    background-color: rgb(16, 150, 40);
+
+}
+
+.status-processamento{
+    background-color: rgb(254, 148, 0)
+}
+
+.status-aguardando{
+    background-color: rgb(255, 0, 0);
+}
